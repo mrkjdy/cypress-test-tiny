@@ -10,7 +10,7 @@ describe('page', () => {
 
   it('should also visit successfully but doesn\'t', () => {
     const args = { username: 'myusername@ibm.com' };
-    cy.origin('login.ibm.com', { args }, ({ username }) => {
+    cy.origin('https://login.ibm.com/', { args }, ({ username }) => {
       cy.visit('https://login.ibm.com/') // Fails saying page never loaded
         .get('#username')
         .type(username)
