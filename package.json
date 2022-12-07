@@ -18,7 +18,7 @@
   "license": "ISC",
   "devDependencies": {
     "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
-    "cypress": "^11.0.0",
+    "cypress": "^12.0.1",
     "ok-file": "^1.5.4"
   },
   "repository": {
